@@ -3,20 +3,23 @@ import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
 import './header.css';
 import HeaderSocials2 from './HeaderSocials2';
+import Type from './Type';
 
 const Header = () => {
   return (
     <header id="home">
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Dushyant Jangid</h1>
-        <h2 className="text-light">Full-stack Developer</h2>
+        <h3 >Hello I'm</h3>
+        <h1 style={{ fontSize: "3rem" }}>Dushyant Jangid</h1>
+        <h2 className="text-light">
+          <Type />
+        </h2>
         <CTA />
         {/* <a href="#contact" className="scroll__down">
           Scroll Down
         </a> */}
-        <HeaderSocials/>
-        <HeaderSocials2/>
+        <HeaderSocials />
+        <HeaderSocials2 />
       </div>
     </header>
   );

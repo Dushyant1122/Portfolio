@@ -20,12 +20,14 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1 year</small>
+              <a href='/#'>1 year</a>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>20+ Completed Projects</small>
+              <a href="https://dushyant1122.github.io/advance-project-list/">
+                20+ Completed Projects
+              </a>
             </article>
           </div>
           <p>
