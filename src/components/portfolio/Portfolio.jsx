@@ -1,10 +1,10 @@
 import React from 'react';
 import IMG1 from '../../assets/KOPPEE.png';
-import IMG2 from '../../assets/todo.png';
-import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+import IMG2 from '../../assets/maths.jpg';
+import IMG3 from '../../assets/Quote.jpg';
+import IMG4 from '../../assets/Songs.jpg';
+import IMG5 from '../../assets/Slider.jpg';
+import IMG6 from '../../assets/ttt.jpg';
 
 import './portfolio.css';
 
@@ -14,59 +14,61 @@ const Portfolio = () => {
       id: 1,
       title: "KOPPEE",
       img: IMG1,
-      description: "Coffee app whit an table reservation system",
+      description:
+        "KOPPEE is a coffee shop website that provides a user-friendly platform for customers to browse their menu, place orders, and reserve tables online, making the coffee shop experience more convenient and accessible.",
       technologies: "HTML | CSS ",
       link: "https://dushyant1122.github.io/KOPPEEe/",
       github: "https://github.com/Dushyant1122/KOPPEEe",
     },
     {
       id: 2,
-      title: "FakeStore",
+      title: "Songs App",
       img: IMG4,
       description:
-        "FakeStore app that provides information about available products and their details",
-      technologies: "React | Redux",
-      link: "https://fakestore-metrics.netlify.app/",
-      github: "https://github.com/Meri-MG/Fakestore---react",
+        "A songs app is a software application that allows users to access and stream a collection of music tracks from various genres, artists, and albums, discover new music, and customize their listening experience based on their preferences.",
+      technologies: "HTML | CSS | JavaScript",
+      link: "https://dushyant1122.github.io/songs-app/",
+      github: "https://github.com/Dushyant1122/songs-app",
     },
     {
       id: 3,
-      title: "To-Do-App",
+      title: "Maths App",
       img: IMG2,
-      description: "User friendly app to plan your day and manage tasks",
-      technologies: "JavaScript | Webpack",
-      link: "https://meri-mg.github.io/To-Do-List/dist/",
-      github: "https://github.com/Meri-MG/To-Do-List",
+      description:
+        "A maths app is a software application designed to help childrens learn and improve their mathematical skills through interactive  quizzes.",
+      technologies: "HTML | CSS | JavaScript",
+      link: "https://dushyant1122.github.io/maths-for-kids/",
+      github: "https://github.com/Dushyant1122/maths-for-kids",
     },
     {
       id: 4,
-      title: "Shelter",
+      title: "Random Quote",
       img: IMG3,
       description:
-        "Fully responsive interactive website built based on Figma design",
-      technologies: "JavaScript | CSS",
-      link: "https://meri-mg.github.io/shelter/pages/main/index.html",
-      github: "https://github.com/Meri-MG/shelter",
+        "A random quote generator is a program or tool that generates a random quote or saying from a database of quotes, which can be used for various purposes such as inspiration, motivation, or entertainment.",
+      technologies: "HTML | CSS | JavaScript",
+      link: "https://dushyant1122.github.io/Quote/",
+      github: "https://github.com/Dushyant1122/Quote",
     },
     {
       id: 5,
-      title: "World News",
+      title: "Image Slider",
       img: IMG5,
       description:
-        "Fully responsive interactive website built based on Adobe XD design",
-      technologies: "JavaScript | CSS",
-      link: "https://meri-mg.github.io/Unilab-world-news/",
-      github: "https://github.com/Meri-MG/Unilab-world-news",
+        "An image slider is a graphical user interface element that displays a series of images in a slideshow format, often used on websites and applications to showcase visual content.",
+      technologies: "HTML | CSS | JavaScript",
+      link: "https://dushyant1122.github.io/slider/",
+      github: "https://github.com/Dushyant1122/slider",
     },
     {
       id: 6,
-      title: "Math Resource",
+      title: "Tic-Tac-Toe Game",
       img: IMG6,
       description:
-        "Real-world group project which is still in progress and will provide educational platform for future young developers",
-      technologies: "JavaScript | Scss | Python",
-      link: "https://lukinoo.github.io/math-resource/",
-      github: "https://github.com/lukinoo/math-resource",
+        "Tic Tac Toe is a classic game where two players take turns marking X's and O's in a 3x3 grid, with the objective of getting three in a row either horizontally, vertically, or diagonally.",
+      technologies: "HTML | CSS | JavaScript",
+      link: "https://dushyant1122.github.io/tic-tac-toe/",
+      github: "https://github.com/Dushyant1122/tic-tac-toe",
     },
   ];
 

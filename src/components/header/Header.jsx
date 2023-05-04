@@ -15,9 +15,7 @@ const Header = () => {
           <Type />
         </h2>
         <CTA />
-        {/* <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a> */}
+        
         <HeaderSocials />
         <HeaderSocials2 />
       </div>
