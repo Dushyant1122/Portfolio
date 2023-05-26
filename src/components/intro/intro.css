@@ -42,7 +42,7 @@
 .about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
-    cursor: default;
+    cursor: pointer;
 }
 
 .about__icon {

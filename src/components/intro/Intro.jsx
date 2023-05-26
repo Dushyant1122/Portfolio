@@ -20,15 +20,17 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <a href='/#'>1 year</a>
+              <a href="/#">1 year</a>
             </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <a href="https://dushyant1122.github.io/advance-project-list/">
-                20+ Completed Projects
-              </a>
-            </article>
+            <a href="https://dushyant1122.github.io/advance-project-list/">
+              <article className="about__card">
+                <VscFolderLibrary className="about__icon" />
+                <h5 style={{color : "white"}}>Projects</h5>
+                <a href="https://dushyant1122.github.io/advance-project-list/">
+                  20+ Completed Projects
+                </a>
+              </article>
+            </a>
           </div>
           <p>
             Hello, I'm Dushyant Jangid, a Full Stack Developer. I completed my
