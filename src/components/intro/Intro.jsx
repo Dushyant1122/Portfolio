@@ -7,7 +7,7 @@ import './intro.css';
 const Intro = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
+      <h3>Get to know</h3>
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">

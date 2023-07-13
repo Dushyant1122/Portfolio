@@ -46,6 +46,7 @@ The app would use class components to manage the state of the burger. The state 
 
   return (
     <section id="portfolio">
+      <h3 style={{"margin-bottom" : "2rem"}} >My Recent Work</h3>
       <h2>REACT JS</h2>
       <div className="container portfolio__container">
         {soloProjects.map((pro) => (
