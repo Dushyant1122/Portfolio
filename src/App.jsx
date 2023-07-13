@@ -6,6 +6,8 @@ import Header from './components/header/Header';
 import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 import Topbar from './components/topbar/Topbar';
+import PortfolioNode from './components/portfolio node/Portfolio';
+import PortfolioReact from './components/portfolio react/Portfolio';
 
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
       <Intro />
       <Experience />
       <Portfolio />
+      <PortfolioNode />
+      <PortfolioReact />
       <Contact />
       <Footer />
     </>
