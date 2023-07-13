@@ -1,27 +1,16 @@
 import React from "react";
-import IMG1 from "../../assets/Burgerbuilder.jpg";
-import IMG2 from "../../assets/maths.jpg";
-import IMG4 from "../../assets/EcommerceApp.jpg";
+import IMG1 from "../../assets/EcommerceApp.jpg";
+import IMG2 from "../../assets/Burgerbuilder.jpg";
+import IMG3 from "../../assets/Weather api.jpg";
 
 import "./portfolio.css";
 
 const PortfolioReact = () => {
   const soloProjects = [
     {
-      id: 1,
-      title: "Burger Builder",
-      img: IMG1,
-      description: `The app Burger Builder would have a simple interface with a list of ingredients on the left and a burger on the right. The user would be able to select ingredients from the list and add them to the burger. The burger would be updated in real time as the user adds ingredients.
-
-The app would use class components to manage the state of the burger. The state would track the ingredients that have been added to the burger, as well as the price of the burger.`,
-      technologies: "React JS",
-      link: "https://burger-builder-master.vercel.app/",
-      github: "https://github.com/Dushyant1122/BurgerBuilder-master",
-    },
-    {
       id: 2,
       title: "Ecommerce App",
-      img: IMG4,
+      img: IMG1,
       description: `The e-commerce site is a single-page application (SPA) that is built using React JS. The frontend of the application is responsible for displaying the product catalog, allowing users to add products to their cart, and processing payments. The backend of the application is built using Node JS and Express. The backend is responsible for storing product data, processing payments, and sending email notifications to customers. 
         The payment gateway for the e- commerce site is Brain-Tree. Brain-Tree is a secure and reliable payment processing platform that allows businesses to accept payments online.Brain-Tree offers a variety of features, including:
           Credit card payments
@@ -32,14 +21,26 @@ The app would use class components to manage the state of the burger. The state 
       github: "https://github.com/Dushyant1122/Ecommerce-2023",
     },
     {
-      id: 3,
-      title: "Maths App",
+      id: 1,
+      title: "Burger Builder",
       img: IMG2,
+      description: `The app Burger Builder would have a simple interface with a list of ingredients on the left and a burger on the right. The user would be able to select ingredients from the list and add them to the burger. The burger would be updated in real time as the user adds ingredients.
+
+The app would use class components to manage the state of the burger. The state would track the ingredients that have been added to the burger, as well as the price of the burger.`,
+      technologies: "React JS",
+      link: "https://burger-builder-master.vercel.app/",
+      github: "https://github.com/Dushyant1122/BurgerBuilder-master",
+    },
+    {
+      id: 3,
+      title: "Weather App",
+      img: IMG3,
       description:
-        "A maths app is a software application designed to help childrens learn and improve their mathematical skills through interactive  quizzes.",
-      technologies: "HTML | CSS | JavaScript",
-      link: "https://dushyant1122.github.io/maths-for-kids/",
-      github: "https://github.com/Dushyant1122/maths-for-kids",
+        "This weather application is a simple web app that allows users to search for weather conditions in any location in the world. The app uses the OpenWeatherMap API to retrieve weather data, and it is built using React JS.",
+      technologies: "React | API",
+      link: "https://real-time-weather-app-react-main.vercel.app/",
+      github:
+        "https://github.com/Dushyant1122/RealTimeWeatherAppReact-main/tree/main",
     },
   ];
 
